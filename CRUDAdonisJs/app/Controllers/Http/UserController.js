@@ -13,7 +13,7 @@ class UserController {
     async update(){
         return{result: 'Actualizou o user 1'}
     }
-    async delete(){
+    async destroy(){
         return{result: 'Deletou o user 1'}
     }
 }
